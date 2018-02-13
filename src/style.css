@@ -1,0 +1,42 @@
+.su-Select {
+  position: relative;
+}
+
+.su-Select-list {
+}
+
+.su-Select-item {
+  cursor: pointer;
+  user-select: none;
+}
+
+.su-Select-item .is-highlighted {
+  color: red;
+  background: pink;
+}
+
+.su-Select-item.is-selected {
+  color: dodgerblue;
+}
+
+.su-Select-item.is-disabled {
+  color: #eee;
+  pointer-events: none;
+}
+
+.su-Select-item.is-focused {
+  background: lightblue;
+}
+
+.su-Select-item.is-hidden {
+  display: none;
+}
+
+.su-Select-tags > * {
+  margin-right: 8px;
+  background: #222;
+  color: #fff;
+  border-radius: 4px;
+  padding: 4px 8px;
+  display: inline-block;
+}
